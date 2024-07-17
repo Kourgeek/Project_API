@@ -1,6 +1,6 @@
 import fastapi
 from pydantic import BaseModel
-from model import np,reg
+from ..model import np,reg
 
 class Students(BaseModel):
     Age: float

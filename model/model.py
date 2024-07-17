@@ -3,7 +3,8 @@ import pandas as pd
 
 from sklearn.linear_model import LinearRegression
 
-data = pd.read_csv("data.csv")
+path = "data"
+data = pd.read_csv(path+"/data.csv")
 data = data[["Age","Gender","Ethnicity","Absences","GradeClass"]]
 
 # train | target
